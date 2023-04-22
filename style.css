@@ -1,0 +1,17 @@
+/*for different browsers*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#canv {
+    border: 5px solid black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /*exactly in the middle*/
+    background: rgb(104, 104, 221);
+    max-width: 100%;
+    max-height: 100%;
+}
